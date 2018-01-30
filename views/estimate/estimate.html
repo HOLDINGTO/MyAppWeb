@@ -1,0 +1,55 @@
+
+<div class="estimate">
+	<ion-header-bar class=" align-title=center bar-positive">
+	   	<div class="button button-clear" ng-click="goBack()">
+	   		<i class="icon ion-ios-arrow-left"></i>
+	   	</div>
+	   	<div class="title titl">评价</div>
+	</ion-header-bar>
+	<ion-content>
+		<div class="rank row row-wrap">
+			<div class="col-33"  ng-repeat="data in classifyInfo track by $index">
+				<span class="rank-t">
+					{{data.text}}
+					<i>(</i>
+					<span>{{data.num}}</span>
+					<i>)</i>
+				</span>
+			</div>
+		</div>
+		<ion-list>
+			<div class="items" ng-repeat="data in glanData">
+				<div class="head">
+					<span class="head-icon l">
+						<img ng-src="{{data.imgUrl}}" />
+					</span>
+					<span class="name l">{{data.name}}</span>
+				</div>
+				<div class="remark">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;{{data.esti}}
+					</p>
+					<span class="remark-time">
+							<span class="time">{{data.time}}</span>
+							<span class="classify-color">颜色分类: <span>{{data.color}}</span></span>
+					</span>
+					<p class="explain">&nbsp;&nbsp;&nbsp;&nbsp;{{data.explain}}</p>
+					<div class="remark-bot">
+						<span class="remark-glan"> 
+							<span class="glan">
+								浏览: <span>{{data.num}}<i>次</i></span>
+							</span>
+							<span class="glan-cate r">
+								<span class="glan-cate-img"><img src="./images/icons/appraise_icons2@2x.png" /></span>
+								<span class="glan-cate-text">{{data.glanNum}}</span>
+							</span>
+							<span class="glan-cate r">
+								<span class="glan-cate-img"><img src="./images/icons/appraise_icons1@2x.png" /></span>
+								<span class="glan-cate-text">评价</span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</ion-list>
+	</ion-content>
+</div>	

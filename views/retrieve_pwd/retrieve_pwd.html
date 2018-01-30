@@ -1,0 +1,42 @@
+<div class="retrieve_pwd">
+	<ion-header-bar class="bar-positive" align-title="center">
+		   	<div class="button button-clear" ng-click="goBack()" ng-if="userControl.isControl">
+		   		<i class="icon ion-ios-arrow-left"></i>
+		   	</div>
+		   	<div class="title titl">找回密码</div>
+		   	<div class="button button-clear regi"  ng-click="cancel()" ng-if="!userControl.isControl">
+		   		取消
+		   	</div>
+	   </ion-header-bar>
+	   <ion-content>
+	   		<div>
+	   	    <div class="padding-horizontal">
+	   	    	<button ng-if="userControl.isControl" class="button button-positive button-full" ng-click="phone()">手机找回密码</button>
+	   	    	<button ng-if="userControl.isControl" class="button button-positive button-full" ng-click="email()">邮箱找回密码</button>
+	   	    </div>
+
+	   	    <ion-list ng-if="!userControl.isControl">
+				  <ion-item class="item-input" ng-if="!userControl.isEmail">
+				  <input type="text" placeholder="手机号" ng-model="userInfo.phone" />
+				  </ion-item>
+				  <ion-item class="item-input" ng-if="userControl.isEmail">
+				    <input type="text" placeholder="邮箱" ng-disabled="userControl.isGetCode" ng-model="userInfo.email" />
+				  </ion-item>
+				  <ion-item class="item-input">
+				    <input type="text" placeholder="验证码" ng-model="userInfo.code" />
+				    <div class="button button-positive button-small" style="margin-right: 15px;" ng-click="getCode()" ng-disabled="disabled.bool">获取验证码</div>
+				  </ion-item>
+				  <ion-item class="item-input">
+				    <input type="password" placeholder="新密码(6-16位)" ng-model="userInfo.pwd" />
+				  </ion-item>
+				  <ion-item class="item-input">
+				    <input type="password" placeholder="确认密码" ng-model="userInfo.respwd" />
+				  </ion-item>
+			</ion-list>
+
+			<div ng-if="!userControl.isControl" class="button button-full button-positive" ng-click="commit()" ng-disabled="disabled.commitBool">
+				提交
+			</div>
+	   </div>
+	   </ion-content>
+</div>

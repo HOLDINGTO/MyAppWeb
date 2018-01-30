@@ -1,0 +1,19 @@
+
+<div class="set_ser" ng-controller="set_serController">
+	<div class="bar bar-positive bar-color">
+		<div class="button button-clear">
+			<i class="icon ion-ios-arrow-left"></i>
+		</div>
+ 		<label class="item item-input input-center">
+             <input type="text" placeholder="">
+ 		     <i class="icon ion-ios-search-strong"></i>
+         </label>
+    </div>
+    <ion-content class="con">
+    	<div class="row row-wrap lis">
+    		<div class="col-33" ng-repeat="data in textData track by $index">
+    			<span>{{data.text}}</span>
+    		</div>
+    	</div>
+    </ion-content>
+</div>	

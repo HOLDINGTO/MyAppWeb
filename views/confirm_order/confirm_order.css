@@ -1,0 +1,131 @@
+
+.confirm_order .address{
+	padding:20px 15px;
+	font-size:14px;
+	border-bottom:15px solid #f0f0f0;
+}
+.confirm_order .name{
+	padding-left:15px;
+}
+.confirm_order .phone{
+	padding-left:25px;
+	
+}
+.confirm_order .cont{
+	margin-bottom:49px;
+}
+.confirm_order .addre-details{
+	margin-top:5px;
+	padding-left:10px;
+}
+.confirm_order .commo{
+	border-bottom:15px solid #f0f0f0;
+}
+.confirm_order .commo-img{
+	width:100px;
+	padding:10px 0;
+	margin-left:10px;
+	margin-right:5px;
+}
+.confirm_order .commo-img>img{
+	width:100%;
+}
+.confirm_order .commo-intro{
+	position: relative;
+	padding:10px 5px;
+	padding-right:35px;
+}
+.confirm_order .commo-color{
+	display: block;
+	margin-top:15px;
+	color:#bbb;
+}
+.confirm_order .number{
+	margin-top:40px;
+}
+.confirm_order .price{
+	color:red;
+}
+.confirm_order .goods-price{
+	font-size:14px;
+}
+.confirm_order  .goods-num{
+	padding-right:10px;
+}
+.confirm_order .infor{
+	border-bottom:10px solid #f0f0f0;
+}
+.confirm_order .icon-color{
+	color:#aaa;
+	font-size:25px;
+    position: relative;
+    top:4px;
+    right:0px;
+}
+.confirm_order .font-s{
+	font-size:12px;
+	color:#aaa;
+}
+.confirm_order .contro{
+	position: absolute;
+	right:25px;
+	display: block;
+	border:1px solid #ddd;
+	top:15px;
+}
+.confirm_order .rece{
+    background-color:#0eadff;
+    color:#fff;
+    padding:2px 6px;
+}
+.confirm_order .add{
+	background-color:#0eadff;
+	color:#fff;
+	font-size:14px;
+	padding:2px 6px;
+}
+.confirm_order .num-show{
+	text-align:center;
+	padding:2px 6px;
+}
+.confirm_order .pay>h4{
+	margin:0;
+	font-size:14px;
+	margin-bottom:25px;
+	padding-left:15px;
+}
+.confirm_order .pay>div{
+	font-size:14px;
+	padding-left:30px;
+}
+.confirm_order .posi{
+	position: absolute;
+	top:20px;
+	right:25px;
+}
+.confirm_order .ico{
+	position: absolute;
+	width:20px;
+	top:16px;
+	left:8px;
+}
+.confirm_order .ico>img{
+   width:100%;
+}
+.confirm_order .tabs{
+	padding-top:0;
+	border:0;
+}
+.confirm_order .bot{
+	padding:0;
+}
+.confirm_order .sub-sum{
+	font-size:13px;
+}
+.confirm_order .order-sub{
+	text-align:center;
+	background-color:#ff5a00;
+	color:#fff;
+	font-size:16px;
+	font-weight: bold;
+}

@@ -1,0 +1,159 @@
+.cart .num{
+	position: absolute;
+	right:15px;
+	display: block;
+	margin-top:15px;
+	border:1px solid #ddd;
+}
+.cart .num>span{
+	border:1px solid #ddd;
+    display: block;
+    float:left;
+	padding:2px 6px;
+
+}
+.cart .num>i{
+	border:1px solid #ddd;
+	padding:2px 5px;
+	background-color:#e3e3e3;
+}
+.cart .rece{
+    background-color:#0eadff;
+    color:#fff;
+}
+.cart .add{
+	background-color:#0eadff;
+	color:#fff;
+	font-size:14px;
+}
+.cart .num-show{
+	text-align:center;
+	min-width:50px;
+}
+.cart .price{
+    position: absolute;
+    font-size:14px;
+    color:red;
+    bottom:5px;
+}
+.cart .goods-box{
+	position: relative;
+	padding:20px 5px;
+	padding-left:40px;
+	border-right:none;
+	z-index:3;
+}
+.cart .check{
+    width:25px;
+    height:25px;
+    position: absolute;
+    top:55px;
+    left:7px;
+    /*display:none;*/
+}
+.cart .goods-img{
+	width:80px;
+}
+.cart .goods-img>img{
+	
+}
+.cart .goods-intro>span{
+    display: block;
+}
+.cart .goods-intro{
+	position: relative;
+	margin-left:5px;
+}
+.cart .goods-h{
+	padding-top:10px;
+	font-size:16px;
+	font-weight: bold;
+}
+.cart .buy{
+	padding:0;
+    position: absolute;
+    bottom:49px;
+    background-color:#fff;
+    font-size:18px;
+}
+.cart .buy-all{
+   padding:15px 0;
+   padding-left:15px;
+}
+.cart .buy>div>span{
+   padding:15px 0;
+   display:block;
+}
+.cart .sum{
+	font-size:15px;
+}
+.cart .buy-num{
+	font-size:13px;
+	color:red;
+}
+.cart .buy-sub{
+	background-color:#ff7200;
+	text-align:center;
+    color:#fff;
+}
+
+
+
+/*编辑后显示部分样式*/
+.cart .cart-statu{
+	background-color:#fff;
+	padding:0;
+	position: absolute;
+	bottom:49px;
+	border:1px solid #ddd;
+}
+.cart .cart-all{
+	padding:15px 0;
+	padding-left:15px;
+	line-height: 20px;
+	font-size:18px;
+}
+.cart .cart-dele{
+	padding:15px;
+    text-align:center;
+    font-size:18px;
+    background-color:#ff7200;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CheckBox样式*/
+/*.cart_edit .piaochecked {
+width: 20px;
+height: 20px;
+float: left;
+cursor: pointer;
+margin-left: 10px;
+text-align: center;
+background-image: url(images/checkbox_01.gif);
+background-repeat: no-repeat;
+background-position: 0 0;
+}
+
+.cart_edit .on_check {
+background-position: 0 -21px;
+}
+.cart_edit .radioclass {
+opacity: 0;
+cursor: pointer;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: alpha(opacity=0);
+}*/

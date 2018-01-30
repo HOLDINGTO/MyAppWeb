@@ -1,0 +1,51 @@
+<div class="cart" ng-controller="cartController">
+	<ion-header-bar class="bar-positive" align-title="center">
+	   	<div class="title titl">购物车</div>
+	   	<div id="edit" class="button button-clear regi" ng-click="shows()">
+	   		编辑
+	   	</div>
+	</ion-header-bar>
+	<ion-content>
+		<ion-list>
+              <div class="item row goods-box" ng-repeat="data in goodsData track by $index">
+              	  <input ng-hide="{{data.show}}" class="check" type="checkbox" name="" value="1" />
+              	  <div class="col-33 goods-img">
+              	  	 <img class="auto-img" ng-src="{{data.imgUrl}}" />
+              	  </div>
+              	  <div class="col-66 goods-intro">
+              	  	 <span class="goods-h">{{data.headText}}</span>
+              	  	 <span class="num">
+              	  	 	<span class="rece ion-android-remove" ng-click="rece($index)"></span>
+              	  	 	<span class="num-show">{{data.num}}</span>
+              	  	 	<span class="add ion-android-add" ng-click="add($index)"></span>
+              	  	 </span>
+              	  	 <span class="price"><i>￥</i>{{data.price}}</span>
+              	  </div>
+              </div>
+		</ion-list>		
+	</ion-content>
+	<div class="buy row" ng-if="show">
+     <div class="col-33">
+         <div class="buy-all">
+           <input class="all" type="checkbox" name="" value="1" />
+           全选
+         </div>
+     </div> 
+     <div class="col-33">
+         <span class="sum">合计: <i class="buy-num">￥</i><span class="buy-num">188.00</span></span>
+     </div> 
+     <div class="col-33 buy-sub">
+        <span>结算
+          <i>( </i><span>1</span><i> )</i>
+        </span>
+     </div> 
+  </div>
+  购物车
+  <div class="cart-statu row" ng-if="!show">
+    <div class="col-66 cart-all">
+       <input class="all" type="checkbox" name="" value="1">
+       全选
+    </div>
+    <div class="col-33 cart-dele">删除</div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+
+<div class="regard">
+		<ion-header-bar class="bar-positive align-title="center">
+	   	<div class="button button-clear">
+	   		<i class="icon ion-ios-arrow-left"></i>
+	   	</div>
+	   	<div class="title titl">关于</div>
+	   </ion-header-bar>
+
+	   	<div class="list lis">
+	   		<div class="item item-button-right" ng-repeat="data in regardText track by $index">
+               {{data.text}}
+               <div class="button button-clear bnt-color">
+               	<i class="icon ion-ios-arrow-right"></i>
+               </div>  
+	   		</div>
+	   	</div>
+
+</div>

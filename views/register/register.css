@@ -1,0 +1,54 @@
+.register .titl{
+	text-align:center;
+}
+.register .form{
+	padding-top:44px;
+}
+.register .input-list{
+	width:75%;
+	margin:0 auto;
+	margin-top:20px;
+}
+.register .item-bor{
+	position:relative;
+	padding:15px 15px 0px 5px;
+	border:none;
+	border-bottom:1px solid #ddd;
+	margin-bottom:5px;
+}
+.register .code{
+	position:absolute;
+	line-height:16px;
+	padding:8px;
+	right:40px;
+	top:16px;
+	color:#fff;
+    border-radius:5px;
+	background-color:#098cfb;
+}
+.register .prot{
+	padding-left:15px;
+	position: relative;
+	display:block;
+	line-height:34px;
+}
+.register .prot>input{
+	position: absolute;
+	top:11px;
+	left:0px;
+}
+.register .bnt{
+	display:block;
+	line-height:35px;
+	text-align:center;
+	font-size:18px;
+	width:70%;
+	margin:0 auto;
+	margin-top:15px;
+	border-radius:10px;
+	background:#fe6c00;
+	color:#fff;
+}
+.register .login{
+	font-size:13px !important;
+}

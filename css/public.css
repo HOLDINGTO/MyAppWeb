@@ -1,0 +1,43 @@
+.bar-color{
+	background-color:#0093f1 !important;
+}
+.auto-img{
+	width:100%;
+	display:block;
+}
+.tab-item{
+	color:#0c60ee;
+}
+.l{
+	float:left;
+}
+.r{
+	float:right;
+}
+.bnt-color{
+	color:#aaa !important;
+}
+.way{
+	margin-left:-80px;
+	color:#888;
+	font-size:14px;
+}
+.ways{
+	margin-left:-173px;
+	color:#888;
+	font-size:14px;
+}
+.account{
+	margin-left:10px;
+	color:#333;
+	font-size:13px;
+}
+.paid{
+	width:150px;
+	line-height:30px;
+	border-radius: 6px;
+	background-color:#0054ff;
+	color:#fff;
+	margin:0 auto;
+	font-size:14px;
+}
